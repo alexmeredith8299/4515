@@ -1,0 +1,64 @@
+body {
+    font-family: system-ui, sans-serif;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #FCE38A;
+}
+p {
+    line-height: 1.5em;
+}
+#clock {
+    color: black;
+    //background-color: #95E1D3;
+    //background-color: #A7E0CE;
+    //height: 2em;
+}
+#cycleNum {
+    background-color: #95E1D3;
+}
+.flex-container {
+    display: flex;
+    background-color: white;//#A7E0CE;
+    flex-direction: column;
+    width: 100%;
+    border: 3px solid #333;
+    //border-radius: 10px;
+    box-shadow: 5px 5px;
+}
+.centerAll {
+    justify-content: center;
+    align-items: center;
+}
+.clockBox {
+    width: 100%;
+    background-color: #95E1D3;
+}
+.flex-container,
+.flex-item {
+    box-sizing: border-box;
+}
+.flex-item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+button {
+    background-color: #95E1D3;
+    border: 3px solid #333;
+    //border-radius: 10px;
+    font-family: system-ui, sans-serif;
+    box-shadow: 3px 3px;
+    outline: none;
+    font-weight: bold;
+    width: 49.5%;
+    justify-content: center;
+}
+button:hover {
+    background-color: #0E9E6F;
+    color: #FFFFFF;
+    box-shadow: 2px 2px #000000;
+}
+h1 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
